@@ -152,4 +152,4 @@ java -jar Tieb_check-in.jar BDUSS 企业ID 企业应用secret 企业应用的id
 
 ## 致谢
 
-一部分代码参考自https://github.com/gengwx/tieba4j，感谢你的代码
+一部分代码参考自https://github.com/gengwx/tieba4j，然后重写了推送部分。感谢你的代码
