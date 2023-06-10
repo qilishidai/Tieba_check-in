@@ -22,7 +22,7 @@
 4. 按 F12 打开 「开发者工具」 找到 应用程序/Application -\> 存储 -\> Cookies
 5. 找到 `BDUSS` 项，并复制值，后面需要用到。
 
-![image-20230409213414282](\img\image-20230409213414282.png)
+![image-20230409213414282](/img/image-20230409213414282.png)
 
 ### 二、获取推送key
 
@@ -38,7 +38,7 @@
 
    在这里为了简单，使用方糖服务号推送。server酱并不推荐这个通道，如图。但是这个是最简单的，配置无门槛，需要其它通道推送，可以自行查看[配置消息通道](https://sct.ftqq.com/forward) 的说明。
 
-   ![image-20230610005402480](\img\123)
+   ![image-20230610005402480](/img/123)
 
 4. 复制下SendKey，在后面需要使用。![image-20230610005516855](/img/image-20230610005516855.png)
 
@@ -56,25 +56,25 @@
 
 ##### 1、登录[阿里云函数计算](https://account.aliyun.com/login/login.htm?oauth_callback=https%3A%2F%2Ffcnext.console.aliyun.com%2Foverview&lang=zh)支付宝扫码登录,并创建服务已经函数。
 
-![image-20230409220823849](\img\image-20230409220823849.png)
+![image-20230409220823849](/img/image-20230409220823849.png)
 
 
 
-![image-20230409220910265](\img\image-20230409220910265.png)
+![image-20230409220910265](/img/image-20230409220910265.png)
 
 
 
-![image-20230409220929318](\img\image-20230409220929318.png)
+![image-20230409220929318](/img/image-20230409220929318.png)
 
 
 
 ##### 2、选择运行环境
 
-![image-20230610012116937](\img\image-20230610012116937.png)
+![image-20230610012116937](/img/image-20230610012116937.png)
 
 ##### 3、填写函数相关信息
 
-![image-20230610012717285](\img\image-20230610012717285.png)
+![image-20230610012717285](/img/image-20230610012717285.png)
 
 ##### 4、启动命令填写
 
@@ -116,7 +116,7 @@ java -jar Tieb_check-in_code/Tieb_check-in.jar BDUSS 企业ID 企业应用secret
 
 ##### 5、设置触发器
 
-![image-20230610012949291](\img\image-20230610012949291.png)
+![image-20230610012949291](/img/image-20230610012949291.png)
 
 
 
@@ -144,7 +144,7 @@ java -jar Tieb_check-in_code/Tieb_check-in.jar BDUSS 企业ID 企业应用secret
 
 打开“任务计划程序”，创建一个新任务
 
-![image-20230610013850350](\img\image-20230610013850350.png)
+![image-20230610013850350](/img/image-20230610013850350.png)
 
 在“触发器”选项卡中，设置每天定时执行任务的时间
 
@@ -152,7 +152,7 @@ java -jar Tieb_check-in_code/Tieb_check-in.jar BDUSS 企业ID 企业应用secret
 
 另外也可以写一个启动脚本进行启动
 
-![image-20230610013953579](\img\image-20230610013953579.png)
+![image-20230610013953579](/img/image-20230610013953579.png)
 
 保存任务后，系统会在每天设定的时间自动执行签到任务。
 
